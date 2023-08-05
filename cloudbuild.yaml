@@ -7,4 +7,4 @@ steps:
 
 # This step will deploy the new container image to cloud run
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['run','deploy', 'fnote-mfa-service', '--image=gcr.io/$PROJECT_ID/fnote-mfa', '--region=us-west4', '--allow-unauthenticated']
+  args: ['run','deploy', 'fnote-mfa', '--image=gcr.io/$PROJECT_ID/fnote-mfa', '--region=us-west4', '--allow-unauthenticated']
