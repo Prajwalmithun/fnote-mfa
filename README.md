@@ -2,6 +2,28 @@
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
+# Run the app on Docker
+
+1. Pull the docker image from docker hub
+
+```
+# docker pull prajwal3498/fnote-mfa
+```
+
+2. Run the docker image
+
+```
+docker run --name fnote-mfa-cont01 -dit -p 5001:5000 prajwal3498/fnote-mfa:latest
+```
+
+Check dockerhub for more details: https://hub.docker.com/r/prajwal3498/fnote-mfa 
+
+3. Open the app in browser
+
+```
+http://localhost:5001/
+```
+
 # To run locally 
 
 1. Clone this repo 
