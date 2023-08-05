@@ -2,6 +2,13 @@
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
+# Access Live Project
+
+```
+https://fnote-mfa-p6erx5zvlq-uw.a.run.app/login
+```
+
+
 # Run the app on Docker
 
 1. Pull the docker image from docker hub
