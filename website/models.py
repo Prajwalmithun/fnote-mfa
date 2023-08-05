@@ -40,4 +40,4 @@ class User(db.Model,UserMixin):
     
     def verify_totp(self, token):
         return otp.valid_totp(token, self.totp_secret)
-    
+   

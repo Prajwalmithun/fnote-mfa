@@ -1,11 +1,6 @@
-# Simple Note Taking App using Flask
+# fnote-mfa
 
-Minimal Note Taking App 
-
-<!-- Use the project live
-
-[Note Taking App](http://fnotes.vanquisher.in/login?next=%2F)
--->
+Minimal Note Taking App with Multi-factor Autentication enabled
 
 # To run locally 
 
@@ -25,15 +20,20 @@ Minimal Note Taking App
 
 ## Sample images
 
-![Signup Page](images/signup.png "Sign Up Page")
+![Signup Page Blank](images/1_Sign_up_blank.png "Sign Up Page Blank")
 
-![Login Page](images/login.png "Login Page")
+![Signup Page Filled](images/2_Sign_up_filled.png "Sign Up Page Filled")
 
-![Home Page](images/notes.png "Authentic user's home page containing notes")
+![MFA QR Page](images/3_mfa_qr_page.png "MFA QR Code")
+
+![Login Page](images/4_login.png "Login Page")
+
+![Home Page](images/5_notes_page.png "Authentic user's home page containing notes")
 
 ## Functionalities
 
 - Create a new user (Signup)
+- Multi-factor Authentication (Using TOPT)
 - Login only for signed up user (Login and Logouts)
 - Create notes (NOT shared notes, each user can only see his notes)
 - Delete notes (Only registerd users can delete/create notes)
