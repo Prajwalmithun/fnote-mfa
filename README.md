@@ -2,7 +2,7 @@
 
 Minimal Note Taking App with Multi-factor Autentication enabled
 
-# Access Live Project
+# Access Live Project [Not Working, Taken down to save Cloud Billing Cost]
 
 ```
 https://fnote-mfa-p6erx5zvlq-uw.a.run.app/login
