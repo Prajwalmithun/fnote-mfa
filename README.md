@@ -17,10 +17,16 @@ https://fnote-mfa-p6erx5zvlq-uw.a.run.app/login
 # docker pull prajwal3498/fnote-mfa
 ```
 
-2. Run the docker image
+2. Run the docker image (on arm64 (ie., Mac M1, M2))
 
 ```
 docker run --name fnote-mfa-cont01 -dit -p 5001:5000 prajwal3498/fnote-mfa:latest
+```
+
+To run docker image on amd64 or x86_64 (ie., On AWS EC2, Intel etc)
+
+```
+docker run --name fnote-mfa-cont01 -dit -p 5001:5000 prajwal3498/fnote-mfa-amd64:latest
 ```
 
 Check dockerhub for more details: https://hub.docker.com/r/prajwal3498/fnote-mfa 
